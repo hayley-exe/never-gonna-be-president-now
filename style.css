@@ -1,10 +1,29 @@
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: aliceblue;
+  font-family: "Akaya Kanadaka", serif; /* Apply Akaya Kanadaka font globally */
+  font-size: larger;
+}
+
+.akaya-kanadaka-regular {
+  font-family: "Akaya Kanadaka", serif; /* Specific class for Akaya Kanadaka */
+}
+
 .container {
   text-align: center;
 }
+
 .box {
   padding: 5px;
   border: 10px;
 }
+
 .top {
   position: relative;
   height: 550px;
@@ -24,14 +43,4 @@
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.6);
-}
-body {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 9, 121, 1) 35%,
-    rgba(0, 212, 255, 1) 100%
-  );
-  color: aliceblue;
 }
