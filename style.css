@@ -9,6 +9,7 @@ body {
   color: aliceblue;
   font-family: "Akaya Kanadaka", serif; /* Apply Akaya Kanadaka font globally */
   font-size: larger;
+  text-align: center;
 }
 
 .akaya-kanadaka-regular {
@@ -43,4 +44,20 @@ body {
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.6);
+}
+.stamped {
+  width: 25%; /* Ensures the image takes up 100% of its container's width */
+  height: auto; /* Keeps the aspect ratio intact */
+  display: block; /* Removes any extra space below the image */
+  object-fit: contain; /* Ensures the entire image fits within the container */
+  margin-left: auto; /* Centers the image horizontally */
+  margin-right: auto; /* Centers the image horizontally */
+}
+
+.book {
+  width: 25%;
+  height: auto;
+  object-fit: contain;
+  margin-left: auto; /* Centers the image horizontally */
+  margin-right: auto; /* Centers the image horizontally */
 }
